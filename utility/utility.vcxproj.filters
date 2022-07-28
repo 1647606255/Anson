@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\co">
+      <UniqueIdentifier>{6b6513f3-11c2-4ed0-b5c7-301b032f2ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\co\src">
+      <UniqueIdentifier>{2e8b9d5d-8916-468d-89c7-989849607a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\co\src\stack">
+      <UniqueIdentifier>{ad388d4c-8477-461d-9882-54c8522f29ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\coInclude">
+      <UniqueIdentifier>{af22ad6c-82ef-42fe-b923-709e6b4befe3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\__\stack_trace_win.cc">
+      <Filter>源文件\co\src\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\__\StackWalker.cpp">
+      <Filter>源文件\co\src\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\__\stack_trace.cc">
+      <Filter>源文件\co\src\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\fast.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\fastring.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\flag.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\fs.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\fs_win.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\log.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\os.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\os_win.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\path.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\str.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\tasked.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\thread.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\time.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\time_win.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\co\src\unitest.cc">
+      <Filter>源文件\co\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
